@@ -60,7 +60,7 @@ const Contact = () => {
   return (
     <motion.section
       id="contact"
-      className="max-w-7xl p-6 mx-auto sm:py-20 flex sm:flex-row flex-col-reverse gap-10 overflow-hidden"
+      className="max-w-7xl p-6 mx-auto sm:py-20 flex sm:flex-row flex-col-reverse sm:gap-10 overflow-hidden"
       variants={staggerContainer()}
       initial="hidden"
       whileInView="show"
@@ -121,7 +121,7 @@ const Contact = () => {
       </motion.div>
       <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
-        className="sm:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        className="sm:flex-1 xl:h-auto md:h-[550px] h-[250px]"
       >
         <EarthCanvas />
       </motion.div>

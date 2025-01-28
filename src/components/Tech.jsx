@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import { BallCanvas } from "./canvas"
 import { technologies } from "../constants"
 import { staggerContainer, textVariant } from "../utils/motion"
 import { motion } from "framer-motion"
@@ -24,7 +23,10 @@ const Tech = () => {
       <div className="mt-20 flex flex-wrap justify-center sm:gap-10 gap-4">
         {technologies.map((technology) => (
           <div className="sm:w-28 sm:h-28 relative w-14 h-14" key={technology.name}>
-            <BallCanvas icon={technology.icon} />
+            <div
+              className="w-full h-full bg-center bg-cover"
+              style={{ backgroundImage: `url(${technology.icon})` }}
+            />
           </div>
         ))}
       </div>

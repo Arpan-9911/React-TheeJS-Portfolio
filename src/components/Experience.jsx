@@ -12,7 +12,7 @@ const ExperienceCard = ({ experience }) => {
       contentStyle={{ background: '#1d1836', color: '#fff' }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
-      icon={<div><img src={experience.icon} alt={experience.company_name} className="object-contain p-1 group"/></div>}
+      icon={<div><img src={experience.icon} alt={experience.company_name} className="p-3"/></div>}
     >
       <div className="group">
         <div>
