@@ -66,7 +66,7 @@ const Feedbacks = () => {
           variants={textVariant()}
         >
           <p className={styles.sectionSubText}>What Others Say</p>
-          <h2 className={styles.sectionHeadText}>Testimonals.</h2>
+          <h2 className={styles.sectionHeadText}>Testimonials.</h2>
         </motion.div>
         <div className="sm:mt-20 mt-5">
           <Slider {...settings}>

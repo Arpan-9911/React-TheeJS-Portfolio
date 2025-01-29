@@ -66,7 +66,7 @@ const Contact = () => {
   return (
     <>
       {showMessage && (
-        <div className="fixed flex justify-between gap-10 top-24 left-1/2 transform -translate-x-1/2 bg-blue-700 text-white p-4 rounded shadow-lg min-w-96 z-50">
+        <div className="fixed flex justify-between items-center gap-10 top-24 left-1/2 transform -translate-x-1/2 bg-blue-700 text-white p-4 rounded shadow-lg sm:min-w-96 w-[90%] z-50">
           <p>{message}</p>
           <img
             src={close}
