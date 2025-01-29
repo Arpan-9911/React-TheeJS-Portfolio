@@ -3,7 +3,7 @@
 import { Tilt } from "react-tilt"
 import { motion } from "framer-motion"
 import { styles } from "../styles"
-import { services } from "../constants"
+import { services, aboutText } from "../constants"
 import { fadeIn, staggerContainer, textVariant } from '../utils/motion' 
 
 const ServiceCard = ({ title, icon, index }) => {
@@ -42,7 +42,7 @@ const About = () => {
         variants={fadeIn("","",0.1,1)}
         className="mt-4 text-gray-400 max-w-3xl leading-7"
       >
-        I'm a web developer specializing in creating responsive, visually engaging, and user-centered websites. Proficient in HTML, CSS, Bootstrap, Tailwind, JavaScript, PHP, and MySQL, I enjoy designing full-stack solutions that blend functionality with aesthetics. Currently pursuing a B.Sc. (Hons.) in Computer Science at Delhi University, I am actively exploring new frameworks and technologies to expand my skill set and deliver innovative web solutions.
+        {aboutText}
       </motion.p>
       <div className="sm:mt-20 mt-5 flex flex-wrap gap-10 justify-evenly items-center">
         {services.map((service, index) => (

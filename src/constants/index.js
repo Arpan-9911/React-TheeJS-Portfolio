@@ -214,4 +214,8 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const aboutText = "I'm a web developer specializing in creating responsive, visually engaging, and user-centered websites. Proficient in HTML, CSS, Bootstrap, Tailwind, JavaScript, PHP, and MySQL, I enjoy designing full-stack solutions that blend functionality with aesthetics. Currently pursuing a B.Sc. (Hons.) in Computer Science at Delhi University, I am actively exploring new frameworks and technologies to expand my skill set and deliver innovative web solutions.";
+
+const projectsText = "Showcasing a collection of responsive and dynamic web projects built with a focus on functionality, aesthetics, and seamless user experience. These projects utilize technologies like HTML, CSS, JavaScript, Node, React, PHP, MySQL, Bootstrap, and Tailwind to deliver modern and scalable solutions. Each work highlights a commitment to clean design, efficient performance, and innovative problem-solving tailored to diverse use cases.";
+
+export { services, technologies, experiences, testimonials, projects, aboutText, projectsText };
